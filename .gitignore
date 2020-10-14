@@ -53,10 +53,16 @@ dist/
 tmp/
 app/**/*.js
 app/**/*.js.map
+dist-ssr
+/out-tsc
+public
+.firebaserc
 
 # dependencies
 node_modules/
 bower_components/
+functions/node_modules
+functions/lib
 
 # IDEs and editors
 .idea/
@@ -69,10 +75,16 @@ libpeerconnection.log/
 npm-debug.log
 testem.log
 typings/
+yarn-error.log
 
 # e2e
 e2e/*.js
+!/e2e/protractor.conf.js
 e2e/*.map
 
 # System Files
 .DS_Store/
+Thumbs.db
+
+# log Files
+*.log
